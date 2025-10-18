@@ -3,7 +3,7 @@ Official Implementation of Paper "Background-Invariant Independence-Guided Multi
 
 Accepted at  **MICCAI 2025**
 Papaer Link: https://papers.miccai.org/miccai-2025/paper/2868_paper.pdf
-Datasets: https://drive.google.com/drive/folders/1dyodI0nLil1P2_FoyGB10jDl5Gan2kMA?usp=drive_link
+Datasets: https://drive.google.com/drive/folders/1dyodI0nLil1P2_FoyGB10jDl5Gan2kMA?usp=drive_link (Download skin lesion datasets here and place them in `data/` folder)
 
 ![BIIGMA-Net Architecture](assets/biigma.png)
 
