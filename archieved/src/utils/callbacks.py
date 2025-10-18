@@ -1,6 +1,7 @@
 import tensorflow as tf
 from tqdm import tqdm
 from .metrics import MulticlassMetrics, MeanTracker
+from ..dataset import NUM_LAB, TOTAL_TRAIN_SAMPLES, TOTAL_VAL_SAMPLES, BATCH_SIZE
 
 class ModelSaveCallback(tf.keras.callbacks.Callback):
     def __init__(self, period, path):
