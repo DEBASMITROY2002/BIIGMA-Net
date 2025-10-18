@@ -67,3 +67,9 @@ python main.py
 ```
 You can modify the hyperparameters by setting environment variables before running the script.
 
+
+# Why we used channel pruning ?
+Following is the plot of convolutional filter wise variance of the activations. A large number of filters have very low variance which indicates that those filters are not contributing much to the final decision making. Hence we can prune those filters to reduce the model size and computation without much loss in performance.
+![Filter Variance Plot](assets/variances.png)
+
+For more details, please refer to the paper and the sample notebook `notebooks/BIGMA_HAM_4H.ipynb`.
