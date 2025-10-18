@@ -62,6 +62,7 @@ pip install -r requirements.txt
 ### How to Run
 To train the model, simply run the `main.py` script from the root of the project directory:
 ```bash
+cd keras-src  # Change to the script's directory
 python main.py
 ```
 You can modify the hyperparameters by setting environment variables before running the script.
